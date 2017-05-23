@@ -1,0 +1,36 @@
+.happy-csser {
+  position: relative;
+  overflow: hidden;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(top left, #FF126D, #FFC11F);
+  background: linear-gradient(to bottom right, #FF126D, #FFC11F);
+}
+
+.happy-csser::before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.happy-csser::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  background: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0));
+  background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+}
