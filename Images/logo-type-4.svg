@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo-type-4</title>
+    <defs>
+        <linearGradient x1="10.7179612%" y1="14.0965441%" x2="88.0491286%" y2="86.5972222%" id="colorGradient">
+            <stop stop-color="#FF126D" offset="0%"></stop>
+            <stop stop-color="#FFC11F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="16.8871444%" x2="136.9174%" y2="78.3146358%" id="whiteGradient">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+        <g id="logo-type-4">
+            <path d="M34,68 C15.2223185,68 0,52.7776815 0,34 C0,15.2223185 15.2223185,0 34,0 C52.7776815,0 68,15.2223185 68,34 C68,52.7776815 52.7776815,68 34,68 Z M24,26 C26.7614237,26 29,23.7614237 29,21 C29,18.2385763 26.7614237,16 24,16 C21.2385763,16 19,18.2385763 19,21 C19,23.7614237 21.2385763,26 24,26 Z" id="Combined-Shape" fill="url(#colorGradient)"></path>
+            <path d="M57.8633086,9.78135232 C64.1208067,15.9476083 68,24.5207871 68,34 C68,43.4792129 64.1208067,52.0523917 57.8633086,58.2186477 L36.478172,36.833511 C34.913267,35.2686061 34.9134002,32.7312607 36.478172,31.166489 L57.8633086,9.78135232 L57.8633086,9.78135232 Z" id="Combined-Shape" fill="url(#whiteGradient)"></path>
+        </g>
+</svg>
