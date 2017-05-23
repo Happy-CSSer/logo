@@ -1,0 +1,35 @@
+$color-red: #ff126d
+$color-yellow: #ffc11f
+$logo-size: 64px
+$eye-size: $logo-size * 0.125
+$square-size: $logo-size * 0.625
+
+.happy-csser
+  position: relative
+  overflow: hidden
+  width: $logo-size
+  height: $logo-size
+  border-radius: 50%
+  background: linear-gradient(to bottom right, #ff126d, #ffc11f)
+
+  &::before
+    content: ''
+    position: absolute
+    top: 25%
+    left: 30%
+    width: $eye-size
+    height: $eye-size
+    border-radius: 50%
+    background-color: white
+
+  &::after
+    content: ''
+    position: absolute
+    top: 50%
+    left: 50%
+    width: $square-size
+    height: $square-size
+    border-radius: 10%
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0))
+    transform-origin: left top
+    transform: rotateZ(-45deg)
