@@ -1,4 +1,4 @@
-$color-red: #ff126d;
+$color-pink: #ff126d;
 $color-yellow: #ffc11f;
 $logo-size: 64px;
 $eye-size: $logo-size * 0.125;
@@ -10,8 +10,7 @@ $square-size: $logo-size * 0.625;
   width: $logo-size;
   height: $logo-size;
   border-radius: 50%;
-  background: linear-gradient(to bottom right, #ff126d, #ffc11f);
-}
+  background: linear-gradient(to bottom right, $color-pink, $color-yellow);
 
   &::before {
     content: '';
@@ -36,3 +35,4 @@ $square-size: $logo-size * 0.625;
     transform-origin: left top;
     transform: rotateZ(-45deg);
   }
+}
